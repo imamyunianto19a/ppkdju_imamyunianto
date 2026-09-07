@@ -20,10 +20,7 @@ class Layoutprofilekompleks extends StatelessWidget {
             const Center(
               child: Text(
                 'Toko Meubel Mulyono',
-                style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
             ),
 
@@ -56,7 +53,7 @@ class Layoutprofilekompleks extends StatelessWidget {
                 children: [
                   Icon(Icons.phone, color: Colors.green),
                   SizedBox(width: 6),
-                  Text('0812-xxxx'),
+                  Text('0813-1593-1689'),
                   Spacer(), // Mendorong elemen berikutnya ke rata kanan secara otomatis
                   Icon(Icons.location_on, color: Colors.red),
                   SizedBox(width: 6),
@@ -128,7 +125,7 @@ class Layoutprofilekompleks extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Text(
-                'Toko terpercaya sejak 1990 menyediakan alat elektronik berkualitas, garansi resmi, dan pelayanan prima untuk seluruh pelanggan di Indonesia.',
+                'Toko terpercaya sejak 1990 menyediakan meubel berkualitas tinggi dengan pelayanan prima untuk seluruh pelanggan di Indonesia.',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 14, color: Colors.black87),
               ),
@@ -148,14 +145,7 @@ class Layoutprofilekompleks extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.asset(
-                  'assets/logo.png', // Sesuaikan nama file gambar kamu
-                  fit: BoxFit.cover,
-                  errorBuilder: (context, error, stackTrace) {
-                    // Tampilan cadangan jika gambar di assets belum diset
-                    return const Center(
-                      child: Text('[ Aset Gambar Visual Branding ]'),
-                    );
-                  },
+                  'assets/images/meubel.jpeg', // Sesuaikan nama file gambar kamu
                 ),
               ),
             ),
