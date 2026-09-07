@@ -3,7 +3,7 @@ import 'package:imam_ppkdju_app_dev/latihan_widget/latihan_singlechildchildscrol
 import 'package:imam_ppkdju_app_dev/tugas1flutter/tugas1.dart';
 import 'package:imam_ppkdju_app_dev/tugas1flutter/tugaslayouting.dart';
 
-import 'package:imam_ppkdju_app_dev/tugas2/layoutprofilekompleks.dart';
+import 'package:imam_ppkdju_app_dev/tugas2flutter/layoutprofilekompleks.dart';
 import 'package:imam_ppkdju_app_dev/tugas3/tugas3flutter.dart';
 import '../tugas4/tugas4flutter.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const Tugas4flutter(),
+      home: const Layoutprofilekompleks(),
     );
   }
 }
